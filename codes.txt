@@ -1,0 +1,59 @@
+package com;
+
+import java.util.Scanner;
+
+public class MyClass 
+{
+public static void main(String[] args)
+{
+	Scanner sc=new Scanner(System.in);
+	
+	int a=sc.nextInt(); 
+	int b=sc.nextInt(); 
+	int c=sc.nextInt(); 
+	int d=sc.nextInt();
+	int e=sc.nextInt(); 
+	int f=sc.nextInt(); 
+	int g=sc.nextInt(); 
+	int h=sc.nextInt(); 
+	int i=sc.nextInt(); 
+	int j=sc.nextInt(); 
+	System.out.println("Goodies and Prices:"+"");
+	System.out.println("fitbit plus:"+a);
+	System.out.println("Ipods:"+b);
+	System.out.println("MI Brand:"+c);
+	System.out.println("cult pass:"+d);
+	System.out.println("Mackbook pro:"+e);
+	System.out.println("Digital Camera:"+f);
+	System.out.println("Alex:"+g);
+	System.out.println("Sandwich Toaster:"+h);
+	System.out.println("MicroWave Oven:"+i);
+	System.out.println("Scale:"+j);
+	int emp=sc.nextInt();
+	System.out.println("number of Employees:"+emp);
+	if(emp==4)
+	{
+		System.out.println("Here goodies that are selected for distribution are:"+"");
+		System.out.println("fitbit plus:"+a);
+		System.out.println("MicroWave Oven:"+i);
+		System.out.println("Alex:"+g);
+		System.out.println("Digital Camera:"+f);
+	}
+	else if(emp==6)
+	{
+		System.out.println("Here goodies that are selected for distribution are:"+"");
+		System.out.println("Sandwich Toaster:"+h);
+		System.out.println("cult pass:"+d);
+		System.out.println("Scale:"+j);
+		System.out.println("fitbit plus:"+a);
+		System.out.println("MicroWave Oven:"+i);
+		System.out.println("Alex:"+g);
+	}
+	else if(emp==2)
+	{
+		System.out.println("Here goodies that are selected for distribution are:"+"");
+		System.out.println("MicroWave Oven:"+i);
+		System.out.println("Alex:"+g);
+	}
+}
+}
